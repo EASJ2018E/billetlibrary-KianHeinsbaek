@@ -15,3 +15,4 @@ C:\source\BilletLibrary\billetlibrary-KianHeinsbaek\BilletTest\obj\Debug\netcore
 C:\source\BilletLibrary\billetlibrary-KianHeinsbaek\BilletTest\obj\Debug\netcoreapp2.1\BilletTest.csproj.CopyComplete
 C:\source\BilletLibrary\billetlibrary-KianHeinsbaek\BilletTest\obj\Debug\netcoreapp2.1\BilletTest.dll
 C:\source\BilletLibrary\billetlibrary-KianHeinsbaek\BilletTest\obj\Debug\netcoreapp2.1\BilletTest.pdb
+C:\source\BilletLibrary\billetlibrary-KianHeinsbaek\BilletTest\bin\Debug\netcoreapp2.1\BilletLibrary.xml

@@ -7,6 +7,9 @@ namespace BilletTest
     [TestClass]
     public class BilTest
     {
+        /// <summary>
+        /// Tester om metoden "Pris()" virker som den skal for klassen "Bil".
+        /// </summary>
         [TestMethod]
         public void BilBilletPrisTest() // Tester om billetprismetoden virker.
         {
@@ -20,6 +23,9 @@ namespace BilletTest
             Assert.AreEqual(240, result);
         }
 
+        /// <summary>
+        /// Tester om metoden "Køretøj()" virker som den skal for klassen "Bil".
+        /// </summary>
         [TestMethod]
         public void BilTjekKøretøjTest() // Tester hvilke køretøj der er tale om.
         {
@@ -33,6 +39,9 @@ namespace BilletTest
             Assert.AreEqual("Bil", result);
         }
 
+        /// <summary>
+        /// Tester hvad der sker hvis længden af en nummerplade er over 7 cifre på klassen "Bil".
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
         public void BilNummerpladeLængdeTest()
@@ -47,6 +56,9 @@ namespace BilletTest
             Assert.Fail();
         }
 
+        /// <summary>
+        /// Tester om metoden "BroBizz()" virker som den skal og giver rabat på klassen "Bil".
+        /// </summary>
         [TestMethod]
         public void BilBroBizzTest()
         {

@@ -9,6 +9,9 @@ namespace BilletTest
     [TestClass]
     public class MCTest
     {
+        /// <summary>
+        /// Tester om metoden "Pris()" virker som den skal for klassen "MC".
+        /// </summary>
         [TestMethod]
         public void MCBilletPrisTest()
         {
@@ -22,19 +25,25 @@ namespace BilletTest
             Assert.AreEqual(125, result);
         }
 
+        /// <summary>
+        /// Tester om metoden "Køretøj()" virker som den skal for klassen "MC".
+        /// </summary>
         [TestMethod]
-        public void MCKøretøjTjek()
+        public void MCKøretøjTjek() 
         {
             // Arrange
             MC mc = new MC();
 
             // Act
-            string result = "MC";
+            string result = mc.Køretøj();
 
             // Assert
             Assert.AreEqual("MC", result);
         }
 
+        /// <summary>
+        /// Tester hvad der sker hvis længden af en nummerplade er over 7 cifre på klassen "MC".
+        /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
         public void MCNummerpladeLængdeTest()
@@ -49,6 +58,9 @@ namespace BilletTest
             Assert.Fail();
         }
 
+        /// <summary>
+        /// Tester om metoden "BroBizz()" virker som den skal og giver rabat på klassen "MC".
+        /// </summary>
         [TestMethod]
         public void MCBroBizzTest()
         {
