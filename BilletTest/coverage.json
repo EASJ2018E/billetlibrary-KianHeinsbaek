@@ -1,0 +1,160 @@
+{
+  "C:\\source\\BilletLibrary\\billetlibrary-KianHeinsbaek\\BilletTest\\bin\\Debug\\netcoreapp2.1\\BilletLibrary.dll": {
+    "C:\\source\\BilletLibrary\\billetlibrary-KianHeinsbaek\\BilletLibrary\\Bil.cs": {
+      "BilletLibrary.Bil": {
+        "System.String BilletLibrary.Bil::get_Nummerplade()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Void BilletLibrary.Bil::set_Nummerplade(System.String)": {
+          "Lines": {
+            "13": 1,
+            "14": 1,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 1,
+            "20": 1,
+            "22": 0
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 12,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.DateTime BilletLibrary.Bil::get_Dato()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Double BilletLibrary.Bil::Pris()": {
+          "Lines": {
+            "28": 2,
+            "29": 2,
+            "30": 2
+          },
+          "Branches": []
+        },
+        "System.String BilletLibrary.Bil::Køretøj()": {
+          "Lines": {
+            "33": 1,
+            "34": 1,
+            "35": 1
+          },
+          "Branches": []
+        },
+        "System.Double BilletLibrary.Bil::BroBizz()": {
+          "Lines": {
+            "39": 1,
+            "40": 1,
+            "41": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\source\\BilletLibrary\\billetlibrary-KianHeinsbaek\\BilletLibrary\\KøretøjSuperClass.cs": {
+      "BilletLibrary.KøretøjSuperClass": {
+        "System.String BilletLibrary.KøretøjSuperClass::get_Nummerplade()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime BilletLibrary.KøretøjSuperClass::get_Dato()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\source\\BilletLibrary\\billetlibrary-KianHeinsbaek\\BilletLibrary\\MC.cs": {
+      "BilletLibrary.MC": {
+        "System.String BilletLibrary.MC::get_Nummerplade()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void BilletLibrary.MC::set_Nummerplade(System.String)": {
+          "Lines": {
+            "17": 1,
+            "18": 1,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 1,
+            "24": 1,
+            "26": 0
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 12,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.DateTime BilletLibrary.MC::get_Dato()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Double BilletLibrary.MC::Pris()": {
+          "Lines": {
+            "31": 2,
+            "32": 2,
+            "33": 2
+          },
+          "Branches": []
+        },
+        "System.String BilletLibrary.MC::Køretøj()": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Double BilletLibrary.MC::BroBizz()": {
+          "Lines": {
+            "42": 1,
+            "43": 1,
+            "44": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

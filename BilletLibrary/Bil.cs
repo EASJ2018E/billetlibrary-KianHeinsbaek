@@ -33,5 +33,11 @@ namespace BilletLibrary
         {
             return "Bil";
         }
+
+
+        public override double BroBizz()
+        {
+            return Pris() * 0.95;
+        }
     }
 }

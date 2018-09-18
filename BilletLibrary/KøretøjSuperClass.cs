@@ -13,6 +13,6 @@ namespace BilletLibrary
 
         public abstract string Køretøj();
 
-        
+        public abstract double BroBizz();
     }
 }

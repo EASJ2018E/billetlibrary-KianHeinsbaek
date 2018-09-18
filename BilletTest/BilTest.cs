@@ -46,5 +46,18 @@ namespace BilletTest
             // Assert
             Assert.Fail();
         }
+
+        [TestMethod]
+        public void BilBroBizzTest()
+        {
+            // Arrange
+            Bil bil = new Bil();
+
+            // Act
+            double result = bil.BroBizz();
+
+            // Assert
+            Assert.AreEqual(228, result, 0.001);
+        }
     }
 }

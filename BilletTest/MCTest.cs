@@ -48,5 +48,18 @@ namespace BilletTest
             // Assert
             Assert.Fail();
         }
+
+        [TestMethod]
+        public void MCBroBizzTest()
+        {
+            // Arrange
+            MC mc = new MC();
+
+            // Act
+            double result = mc.BroBizz();
+
+            // Assert
+            Assert.AreEqual(118.75, result, 0.001);
+        }
     }
 }
