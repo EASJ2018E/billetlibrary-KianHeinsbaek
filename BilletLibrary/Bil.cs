@@ -2,17 +2,15 @@
 
 namespace BilletLibrary
 {
-    public class Bil
+    public class Bil : KøretøjSuperClass
     {
-        public string Nummerplade { get; set; }
-        public DateTime Dato { get; set; }
 
-        public double Pris()
+        public override double Pris()
         {
             return 240;
         }
 
-        public string Køretøj()
+        public override string Køretøj()
         {
             return "Bil";
         }
