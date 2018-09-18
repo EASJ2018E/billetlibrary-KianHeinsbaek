@@ -7,7 +7,7 @@ namespace BilletTest
     public class BilTest
     {
         [TestMethod]
-        public void BilletPrisTest() // Tester om billetprismetoden virker.
+        public void BilBilletPrisTest() // Tester om billetprismetoden virker.
         {
             // Arrange
             Bil bil = new Bil();
@@ -20,7 +20,7 @@ namespace BilletTest
         }
 
         [TestMethod]
-        public void TjekKøretøjTest() // Tester hvilke køretøj der er tale om.
+        public void BilTjekKøretøjTest() // Tester hvilke køretøj der er tale om.
         {
             // Arrange
             Bil bil = new Bil();

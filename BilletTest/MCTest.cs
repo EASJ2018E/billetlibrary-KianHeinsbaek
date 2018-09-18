@@ -1,10 +1,38 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using BilletLibrary;
 
 namespace BilletTest
 {
-    class MCTest
+    [TestClass]
+    public class MCTest
     {
+        [TestMethod]
+        public void MCBilletPrisTest()
+        {
+            // Arrange
+            MC mc = new MC();
+
+            // Act
+            double result = mc.Pris();
+
+            // Assert
+            Assert.AreEqual(125, result);
+        }
+
+        [TestMethod]
+        public void MCKøretøjTjek()
+        {
+            // Arrange
+            MC mc = new MC();
+
+            // Act
+            string result = "MC";
+
+            // Assert
+            Assert.AreEqual("MC", result);
+        }
     }
 }
