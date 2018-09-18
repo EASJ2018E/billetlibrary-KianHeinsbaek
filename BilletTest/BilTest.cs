@@ -1,3 +1,4 @@
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BilletLibrary;
 
@@ -30,6 +31,20 @@ namespace BilletTest
 
             // Assert
             Assert.AreEqual("Bil", result);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void BilNummerpladeLængdeTest()
+        {
+            // Arrange
+            Bil bil = new Bil();
+
+            // Act
+            bil.Nummerplade = "12345678";
+
+            // Assert
+            Assert.Fail();
         }
     }
 }

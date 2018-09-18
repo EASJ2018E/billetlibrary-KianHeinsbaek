@@ -34,5 +34,19 @@ namespace BilletTest
             // Assert
             Assert.AreEqual("MC", result);
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void MCNummerpladeLængdeTest()
+        {
+            // Arrange
+            MC mc = new MC();
+
+            // Act
+            mc.Nummerplade = "12345678";
+
+            // Assert
+            Assert.Fail();
+        }
     }
 }
