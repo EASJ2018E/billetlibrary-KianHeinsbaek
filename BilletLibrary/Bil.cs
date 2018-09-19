@@ -24,8 +24,10 @@ namespace BilletLibrary
 
         public DateTime Dato { get; set; }
 
-        public override double Pris()
+        public override double Pris(bool Brobizz)
         {
+            if (Brobizz)
+                return 240 * 0.95;
             return 240;
         }
 
