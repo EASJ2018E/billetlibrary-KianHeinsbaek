@@ -7,3 +7,4 @@ C:\source\BilletLibrary\billetlibrary-KianHeinsbaek\BilletLibrary\obj\Debug\netc
 C:\source\BilletLibrary\billetlibrary-KianHeinsbaek\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.dll
 C:\source\BilletLibrary\billetlibrary-KianHeinsbaek\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.pdb
 C:\source\BilletLibrary\billetlibrary-KianHeinsbaek\BilletLibrary\obj\Debug\netcoreapp2.1\BilletLibrary.csprojAssemblyReference.cache
+C:\source\BilletLibrary\billetlibrary-KianHeinsbaek\BilletLibrary\bin\Debug\netcoreapp2.1\BilletLibrary.xml
